@@ -6,4 +6,4 @@ if media >= 6:
 elif media < 4:
     print('Reprovado')
 else:
-    print('Recuperação')
+    print('Recuperação')    
