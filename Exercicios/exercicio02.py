@@ -11,5 +11,5 @@ if idade<15 or idade>60:
 elif risco == "SIM":
     print("O senhor(a)",nome,"Possui um risco e acaba ficando vulneravel ao corona virus... ")
 else:
-    print("O senhor(a)",nome," Está limpo e Invulneravel ao Virus.")
+    print("O senhor(a)",nome," Está limpo e Invulneravel ao Virus.")      
          
