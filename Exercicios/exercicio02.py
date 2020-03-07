@@ -1,10 +1,10 @@
 nome = input("Nome do paciente: ")
 idade = int(input("Idade do paciente: "))
-risco = input("Paciente possui asma?").upper()
-
-if risco!="SIM" and risco!="NAO":  
-        print("dado de risco invalido, digite novamente: ")
-        risco = input("Paciente possui asma?").upper()
+while True:
+    risco = input("Paciente possui asma?").upper()
+    print("dado de risco invalido, digite novamente: ")
+    if risco=="SIM" or risco=="NAO":
+        break 
 
 if idade<15 or idade>60:
     print("O senhor(a)",nome,"Está vuneravel a corona virus!!")
